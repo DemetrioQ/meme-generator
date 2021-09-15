@@ -31,6 +31,7 @@ function App() {
   return (
     <div className='App'>
       <select onChange={onChangeMemeImage}>
+        <option>Select a meme...</option>
         <option value='fire'>House on fire</option>
         <option value='futurama'>Futurama</option>
         <option value='history'>History Channel</option>

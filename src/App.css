@@ -38,23 +38,24 @@
 }
 
 .meme {
-  width: 379px;
-  height: 375px;
+  width: 500px;
+  height: 500px;
   margin: auto;
+  overflow-wrap: break-word;
+  word-break: break-all;
 }
 
 .meme span {
   position: absolute;
-  width: 100%;
-  left: 0px;
-  margin-top: 20px;
-  font-size: 38px;
+  width: 495px;
+  margin-top: 0px;
+  font-size: 36px;
   color: white;
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 .meme span:nth-child(2) {
-  margin-top: 290px;
+  margin-top: 400px;
 }
 
 .meme img {
